@@ -2,7 +2,7 @@
 
 The travelling salesman problem (TSP) asks the following question: "Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?" It is an NP-hard problem in combinatorial optimization, important in theoretical computer science and operations research.
 
-![image]([https://external-preview.redd.it/oWu9Rd_ykjnEAfbnDQZkc8aq3eNpgvJdZ2rtExtMTNw.png?auto=webp&s=c87aef08f0e2e1536cb4c28a5c420ae5cf5f2d51](https://upload.wikimedia.org/wikipedia/commons/2/2b/Bruteforce.gif))
+![image]([[https://external-preview.redd.it/oWu9Rd_ykjnEAfbnDQZkc8aq3eNpgvJdZ2rtExtMTNw.png?auto=webp&s=c87aef08f0e2e1536cb4c28a5c420ae5cf5f2d51]([https://upload.wikimedia.org/wikipedia/commons/2/23/Nearestneighbor.gif)](https://upload.wikimedia.org/wikipedia/commons/2/2b/Bruteforce.gif](https://upload.wikimedia.org/wikipedia/commons/2/23/Nearestneighbor.gif)))
 
 **API**
 
