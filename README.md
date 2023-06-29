@@ -104,7 +104,7 @@ The travelling salesman problem (TSP) asks the following question: "Given a list
 <pre>
 POST /?units=M HTTP/1.1
 Content-Type: application/json
-X-Rapidapi-Key: adf56d3d92msh6f2ab5216f14a0cp1b8366jsn5513c856eff7
+X-Rapidapi-Key: Your API KEY
 X-Rapidapi-Host: travelling-salesman-problem-best-route-finder.p.rapidapi.com
 Host: travelling-salesman-problem-best-route-finder.p.rapidapi.com
 Content-Length: 511
@@ -180,7 +180,7 @@ xhr.addEventListener('readystatechange', function () {
 
 xhr.open('POST', 'https://travelling-salesman-problem-best-route-finder.p.rapidapi.com/?units=M');
 xhr.setRequestHeader('content-type', 'application/json');
-xhr.setRequestHeader('X-RapidAPI-Key', 'adf56d3d92msh6f2ab5216f14a0cp1b8366jsn5513c856eff7');
+xhr.setRequestHeader('X-RapidAPI-Key', 'Your API KEY');
 xhr.setRequestHeader('X-RapidAPI-Host', 'travelling-salesman-problem-best-route-finder.p.rapidapi.com');
 
 xhr.send(data);
@@ -197,7 +197,7 @@ const options = {
   params: {units: 'M'},
   headers: {
     'content-type': 'application/json',
-    'X-RapidAPI-Key': 'adf56d3d92msh6f2ab5216f14a0cp1b8366jsn5513c856eff7',
+    'X-RapidAPI-Key': 'Your API KEY',
     'X-RapidAPI-Host': 'travelling-salesman-problem-best-route-finder.p.rapidapi.com'
   },
   data: [
@@ -281,7 +281,7 @@ curl_setopt_array($curl, [
 	]),
 	CURLOPT_HTTPHEADER => [
 		"X-RapidAPI-Host: travelling-salesman-problem-best-route-finder.p.rapidapi.com",
-		"X-RapidAPI-Key: adf56d3d92msh6f2ab5216f14a0cp1b8366jsn5513c856eff7",
+		"X-RapidAPI-Key: Your API KEY",
 		"content-type: application/json"
 	],
 ]);
